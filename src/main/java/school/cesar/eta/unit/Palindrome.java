@@ -6,7 +6,7 @@ package school.cesar.eta.unit;
  * 11:11 and long digits 02/02/2020.
  */
 public class Palindrome {
-    public static boolean check(String word) {
+    public boolean check(String word) {
         int length = word.length();
 
         if (length <= 1) {
